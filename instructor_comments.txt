@@ -1,0 +1,5 @@
+Great job with inserting comments throughout your code. Writing comments is great to reinforce what you know and to help people read through your code.
+
+- on line 37, you have ('do nothing'). This is not needed. If you leave it blank it will do nothing.
+
+- Another issue that you might want to look into is that the weatherImage function currently only checks one set of temparatures. The issue with this is that 30 is cold in fahrenheit but hot in Celsius. I would try to pass a value through to tell you which way you are converting, then run an if statement with different values for each conversion. Let me know if you have any questions.
